@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #0171f9;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fafafa;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.nav-links a:hover {
+    background-color: #107bfe;
+}
+
+
+.Landing-page {
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    color: #ffffff;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.Landing-page-left-section {
+    width: 500px;
+}
+
+.Landing-page-search input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0 10px;
+}
+
+.Landing-page-search button {
+    position: absolute;
+    height: 30px;
+    left: 200px;
+
+}
+
+.btn {
+    background-color: #e95d3e;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #ef8973;
+}
+
+.Landing-page-image-container img {
+    border-radius: 20px;
+    width: 250px;
+}
