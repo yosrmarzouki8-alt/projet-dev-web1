@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body
+{
+
+    
+    width: 900px;
+    margin: auto;
+    color: black;
+    position: relative;
+    background-image: url(imagges/vuee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS';
+    padding: 0;
+}
+/*fieldset*/
+fieldset {
+    margin-bottom: 15px;
+    padding: 60px;
+    margin: 30px;
+    padding: 70px;
+}
+
+/*legend*/
+legend {
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+ 
+    /*input*/
+}
+input[type=text],
+input[type=email],
+input[type=tel],
+#m{
+    display: block;
+    margin: 5px;
+    width: 400px;
+}
+input:focus {
+    background: #eaeaea;
+}
+input[type=submit],
+input[type=reset]{
+    width: 100px;
+    margin: 10px;
+}
+/*label nom*/
+#l1{
+    display: block;
+}
+/*textearea*/
+#m{
+    width: 400px;
+    height: 200px;
+}
+label {
+  
+    margin: 8px; 
+}
+
+    </style>
+</head>
+<body>
+        <form>
+<fieldset>
+    <legend>Contactez-moi</legend>
+    <label>Type de peau:</label>
+    <label for="Mr">grasse</label>
+    <input id="Mr" name="C" type="radio"/>
+    <label for="Ma">sèche</label>
+    <input id="Ma" name="C" type="radio">
+    <label for="Mlle">mixte</label>
+    <input id="Mlle" name="C" type="radio">
+    <label for="Mlle">sensible</label>
+    <input id="Mlle" name="C" type="radio">
+    <br/>
+    <label for="nom" id="l1"> Nom complet: </label>
+    <input id="nom" name="nom" type="text" placeholder="Votre nom" required>
+    
+   
+    <label for="email"> email: </label>
+    <input id="email" name="email" type="email" placeholder="Votre email" required>
+ 
+    <label for="su">Sujet:</label>
+     <input id="su" name="su" type="text" placeholder="Votre sujet" required>
+   
+    <label for="m"> Votre message :</label>
+    <br/> 
+    <textarea id="m" required></textarea>
+   
+    <input type="submit" value="Envoyer">
+    <input type="reset" value="Annuler">
+</fieldset>
+</form>    
+</body>
+</html>
